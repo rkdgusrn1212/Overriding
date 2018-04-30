@@ -38,7 +38,7 @@ if __name__ == "__main__":
                     callSwitch = 0
                     raw_input()
             elif select == '3':
-                network.batmanSetting();
+                network.batmanSetting('10.10.1.101', 24, 'PiAdhoc', 6);
                 raw_input()
             elif select == '4': # Exit
                 del network
